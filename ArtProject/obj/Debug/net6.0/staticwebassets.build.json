@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F5TDW831gbVapoMCB7OT8RoG+KlKOBz5+s6NKTeBtJg=",
+  "Hash": "/CeBtZMmNcIw23ShRYbkHkthnkii4fMghf1Hkq69kzk=",
   "Source": "ArtProject",
   "BasePath": "_content/ArtProject",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\wwwroot\\images\\Van_Gogh_Starry_Night225820700.jpg",
+      "SourceId": "ArtProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\wwwroot\\",
+      "BasePath": "_content/ArtProject",
+      "RelativePath": "images/Van_Gogh_Starry_Night225820700.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Van_Gogh_Starry_Night225820700.jpg"
+    },
+    {
       "Identity": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\wwwroot\\js\\site.js",
       "SourceId": "ArtProject",
       "SourceType": "Discovered",
@@ -100,6 +117,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\wwwroot\\lib\\bootstrap\\dist\\css\\_bootswatch.scss",
+      "SourceId": "ArtProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\wwwroot\\",
+      "BasePath": "_content/ArtProject",
+      "RelativePath": "lib/bootstrap/dist/css/_bootswatch.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\_bootswatch.scss"
+    },
+    {
+      "Identity": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\wwwroot\\lib\\bootstrap\\dist\\css\\_variables.scss",
+      "SourceId": "ArtProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\wwwroot\\",
+      "BasePath": "_content/ArtProject",
+      "RelativePath": "lib/bootstrap/dist/css/_variables.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\_variables.scss"
     },
     {
       "Identity": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
