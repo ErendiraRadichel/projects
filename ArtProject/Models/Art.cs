@@ -32,8 +32,8 @@ namespace ArtProject.Models
         public string ImageName { get; set; }
 
         [Required]
-        [Display(Name = "Picture")]
         [NotMapped]
+        [Display(Name = "Picture")]
         public IFormFile ImageFile { get; set; }
     }
 }

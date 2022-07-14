@@ -108,7 +108,7 @@ namespace ArtProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Artist,Date,Technique,Price,Inspiration")] Art art)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Artist,Date,Technique,Price,Movement,History,ImageFile")] Art art)
         {
             if (id != art.Id)
             {
