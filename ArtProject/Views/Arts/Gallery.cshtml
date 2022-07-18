@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ArtProject.Models.Art>
+
+@{
+    ViewData["Title"] = "Gallery";
+}
+
+<h1 class="text-center text-uppercase" style="margin-top: 40px !important;">Art Gallery</h1>
+
+<p class="text-center">
+    <a class="text-decoration-none" asp-action="Create">Create New</a> | <a class="text-decoration-none" asp-action="Index">See Index</a>
+</p>
+
+<div class="row" style="margin: 15px !important;">
+    @{var counter = 1; }
+    @foreach (var item in Model){
+      <div class="col">
+          <a asp-action="Details" asp-route-id="@item.Id">
+              <img class="shadow p-3 mb-5 bg-white rounded" src="@("~/images/"+item.ImageName)" asp-append-version="true" width="200px"/>
+          </a>
+      </div>
+      if(counter % 3 == 0){
+        @:</div> <div class="row" style="margin: 15px !important;">
+      }
+      counter++;
+    }
+    </div>
+</div>

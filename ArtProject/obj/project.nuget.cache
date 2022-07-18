@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wBLcUfCjEdjDOQbnKvCjAVtGYyxf2Kg04EvoETI5yaaXzwSd0/HpcnT4uIHjpgCB+djvhk6hThyEiaH+WfatRw==",
+  "dgSpecHash": "teZhxNJoxCe8QSByxZyFIN4kusj8ev14PRi86d1FLe4YNjl8iOECH6oTB5xSnFYcyyzX8F4t+sTopFCWjEeTjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\ArtProject.csproj",
+  "projectFilePath": "C:\\Users\\erendira.radichel\\Source\\Repos\\ErendiraRadichel\\projects\\ArtProject\\ArtProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erendira.radichel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\erendira.radichel\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

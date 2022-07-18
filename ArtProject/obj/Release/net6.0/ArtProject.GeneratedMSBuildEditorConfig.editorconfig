@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ArtProject
 build_property.RootNamespace = ArtProject
-build_property.ProjectDir = C:\Users\erendira.radichel\Source\Repos\ErendiraRadichel\projects\ArtProject\
+build_property.ProjectDir = C:\Users\erendira.radichel\source\repos\ErendiraRadichel\projects\ArtProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\erendira.radichel\Source\Repos\ErendiraRadichel\projects\ArtProject
+build_property.MSBuildProjectDirectory = C:\Users\erendira.radichel\source\repos\ErendiraRadichel\projects\ArtProject
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/erendira.radichel/Source/Repos/ErendiraRadichel/projects/ArtProject/Views/Arts/Create.cshtml]

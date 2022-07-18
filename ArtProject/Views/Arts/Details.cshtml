@@ -4,66 +4,21 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1 class="text-center text-uppercase" style="margin-top: 40px !important;">@Html.DisplayFor(model => model.Title)</h1>
+<img class="img-fluid shadow p-3 mb-5 bg-white" src="@("~/images/"+Model.ImageName)" asp-append-version="true"/>
 
-<div>
-    <h4>Art</h4>
+<div class="text-center">
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Artist)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Artist)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Date)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Date)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Technique)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Technique)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Movement)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Movement)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.History)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.History)
-        </dd>
-        <dt class = "col-sm-2">
-            Uploaded Image:
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImageName)
-        </dd>
-        <dd class = "col-sm-10">
-            <img class="rounded" src="@("~/images/"+Model.ImageName)" asp-append-version="true" width="250px"/>
-        </dd>
-    </dl>
+    <h3 class="font-weight-light" >By @Html.DisplayFor(model => model.Artist)</h3>
+    <p>Close to @Html.DisplayFor(model => model.Date)</p>
+    <p>Technique: @Html.DisplayFor(model => model.Technique)</p>
+    <p>@Html.DisplayFor(model => model.Movement)</p>
+    <p>Approximade price: @Html.DisplayFor(model => model.Price)</p>
+    <h4 class="font-weight-bold text-uppercase">Background Story</h4>
+    <p>@Html.DisplayFor(model => model.History)</p>
+    <hr />
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div class="text-center" style="margin: 0 50px 0 20px !important;">
+    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a class="btn btn-outline-secondary" asp-action="Index">Back to List</a>
 </div>

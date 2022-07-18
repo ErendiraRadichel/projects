@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\ArtProject.csproj": {}
+    "C:\\Users\\erendira.radichel\\Source\\Repos\\ErendiraRadichel\\projects\\ArtProject\\ArtProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\ArtProject.csproj": {
+    "C:\\Users\\erendira.radichel\\Source\\Repos\\ErendiraRadichel\\projects\\ArtProject\\ArtProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\ArtProject.csproj",
+        "projectUniqueName": "C:\\Users\\erendira.radichel\\Source\\Repos\\ErendiraRadichel\\projects\\ArtProject\\ArtProject.csproj",
         "projectName": "ArtProject",
-        "projectPath": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\ArtProject.csproj",
+        "projectPath": "C:\\Users\\erendira.radichel\\Source\\Repos\\ErendiraRadichel\\projects\\ArtProject\\ArtProject.csproj",
         "packagesPath": "C:\\Users\\erendira.radichel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erendira.radichel\\source\\repos\\ErendiraRadichel\\projects\\ArtProject\\obj\\",
+        "outputPath": "C:\\Users\\erendira.radichel\\Source\\Repos\\ErendiraRadichel\\projects\\ArtProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

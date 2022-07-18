@@ -21,6 +21,7 @@ namespace ArtProject.Controllers
             _hostEnvironment = hostEnvironment;
         }
 
+
         // GET: Arts
         public async Task<IActionResult> Index(string searchString)
         {
@@ -179,6 +180,14 @@ namespace ArtProject.Controllers
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        // GET: Arts
+        public async Task<IActionResult> Gallery()
+        {
+            return _context.Art != null ? 
+            View(await _context.Art.ToListAsync()) :
+            Problem("Entity set 'ArtProjectContext.Art'  is null.");
         }
 
         private bool ArtExists(int id)
