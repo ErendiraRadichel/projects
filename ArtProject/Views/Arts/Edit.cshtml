@@ -3,50 +3,48 @@
 @{
     ViewData["Title"] = "Edit";
 }
-
 <h1 class="text-center text-uppercase" style="margin-top: 40px !important;">Edit Painting Information</h1>
-
-<div class="row justify-content-center">
+<div class="row justify-content-center" style="margin: 30px !important">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
-            <div class="form-group">
+            <div class="form-group" style="margin-bottom: 15px !important">
                 <label asp-for="Title" class="control-label"></label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin-bottom: 15px !important">
                 <label asp-for="Artist" class="control-label"></label>
                 <input asp-for="Artist" class="form-control" />
                 <span asp-validation-for="Artist" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin-bottom: 15px !important">
                 <label asp-for="Date" class="control-label"></label>
                 <input asp-for="Date" class="form-control" />
                 <span asp-validation-for="Date" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin-bottom: 15px !important">
                 <label asp-for="Technique" class="control-label"></label>
                 <input asp-for="Technique" class="form-control" />
                 <span asp-validation-for="Technique" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin-bottom: 15px !important">
                 <label asp-for="Price" class="control-label"></label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin-bottom: 15px !important">
                 <label asp-for="Movement" class="control-label"></label>
                 <input asp-for="Movement" class="form-control" />
                 <span asp-validation-for="Movement" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin-bottom: 15px !important">
                 <label asp-for="History" class="control-label"></label>
                 <textarea asp-for="History" class="form-control"></textarea>
                 <span asp-validation-for="History" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin-bottom: 15px !important">
                 <label asp-for="ImageFile" class="control-label"></label>
                 <input asp-for="ImageFile" class="form-control" accept="image/*"/>
                 <span asp-validation-for="ImageFile" class="text-danger"></span>
@@ -59,7 +57,7 @@
 </div>
 
 <div class="text-center" style="margin: 25px !important;">
-    <a class="text-decoration-none" asp-action="Index">Back to List</a>
+    <a class="text-decoration-none underline" asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
