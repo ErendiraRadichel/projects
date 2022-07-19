@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\ArtProject",
+    "\\ArtProject\\Controllers",
     "\\ArtProject\\Views",
     "\\ArtProject\\Views\\Home"
   ],
-  "SelectedNode": "\\ArtProject\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\ArtProject\\Controllers\\ArtsController.cs",
   "PreviewInSolutionExplorer": false
 }
